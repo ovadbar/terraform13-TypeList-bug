@@ -1,0 +1,244 @@
+2020/10/28 08:30:54 [INFO] Terraform version: 0.13.5  
+2020/10/28 08:30:54 [INFO] Go runtime version: go1.14.7
+2020/10/28 08:30:54 [INFO] CLI args: []string{"/Users/baroukhovadia/tmp/dummy/../test/terraform", "validate"}
+2020/10/28 08:30:54 [DEBUG] Attempting to open CLI config file: /Users/baroukhovadia/.terraformrc
+2020/10/28 08:30:54 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2020/10/28 08:30:54 [DEBUG] checking for credentials in "/Users/baroukhovadia/.terraform.d/plugins"
+2020/10/28 08:30:54 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2020/10/28 08:30:54 [DEBUG] will search for provider plugins in /Users/baroukhovadia/.terraform.d/plugins
+2020/10/28 08:30:54 [TRACE] getproviders.SearchLocalDirectory: /Users/baroukhovadia/.terraform.d/plugins is a symlink to /Users/baroukhovadia/.terraform.d/plugins
+2020/10/28 08:30:54 [WARN] ignoring file "registry.terraform.io/hashicorp/google/3.39.0.json" as possible package for registry.terraform.io/hashicorp/google: filename lacks expected prefix "terraform-provider-google_"
+2020/10/28 08:30:54 [WARN] ignoring file "registry.terraform.io/hashicorp/google/index.json" as possible package for registry.terraform.io/hashicorp/google: filename lacks expected prefix "terraform-provider-google_"
+2020/10/28 08:30:54 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/google v3.39.0 for darwin_amd64 at /Users/baroukhovadia/.terraform.d/plugins/registry.terraform.io/hashicorp/google/terraform-provider-google_3.39.0_darwin_amd64.zip
+2020/10/28 08:30:54 [WARN] ignoring file "registry.terraform.io/hashicorp/google-beta/3.39.0.json" as possible package for registry.terraform.io/hashicorp/google-beta: filename lacks expected prefix "terraform-provider-google-beta_"
+2020/10/28 08:30:54 [WARN] ignoring file "registry.terraform.io/hashicorp/google-beta/index.json" as possible package for registry.terraform.io/hashicorp/google-beta: filename lacks expected prefix "terraform-provider-google-beta_"
+2020/10/28 08:30:54 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/google-beta v3.39.0 for darwin_amd64 at /Users/baroukhovadia/.terraform.d/plugins/registry.terraform.io/hashicorp/google-beta/terraform-provider-google-beta_3.39.0_darwin_amd64.zip
+2020/10/28 08:30:54 [WARN] ignoring file "registry.terraform.io/hashicorp/helm/0.10.5.json" as possible package for registry.terraform.io/hashicorp/helm: filename lacks expected prefix "terraform-provider-helm_"
+2020/10/28 08:30:54 [WARN] ignoring file "registry.terraform.io/hashicorp/helm/index.json" as possible package for registry.terraform.io/hashicorp/helm: filename lacks expected prefix "terraform-provider-helm_"
+2020/10/28 08:30:54 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/helm v0.10.5 for darwin_amd64 at /Users/baroukhovadia/.terraform.d/plugins/registry.terraform.io/hashicorp/helm/terraform-provider-helm_0.10.5_darwin_amd64.zip
+2020/10/28 08:30:54 [WARN] ignoring file "registry.terraform.io/hashicorp/kubernetes/1.10.0.json" as possible package for registry.terraform.io/hashicorp/kubernetes: filename lacks expected prefix "terraform-provider-kubernetes_"
+2020/10/28 08:30:54 [WARN] ignoring file "registry.terraform.io/hashicorp/kubernetes/index.json" as possible package for registry.terraform.io/hashicorp/kubernetes: filename lacks expected prefix "terraform-provider-kubernetes_"
+2020/10/28 08:30:54 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/kubernetes v1.10.0 for darwin_amd64 at /Users/baroukhovadia/.terraform.d/plugins/registry.terraform.io/hashicorp/kubernetes/terraform-provider-kubernetes_1.10.0_darwin_amd64.zip
+2020/10/28 08:30:54 [WARN] ignoring file "registry.terraform.io/hashicorp/random/2.3.0.json" as possible package for registry.terraform.io/hashicorp/random: filename lacks expected prefix "terraform-provider-random_"
+2020/10/28 08:30:54 [WARN] ignoring file "registry.terraform.io/hashicorp/random/index.json" as possible package for registry.terraform.io/hashicorp/random: filename lacks expected prefix "terraform-provider-random_"
+2020/10/28 08:30:54 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/random v2.3.0 for darwin_amd64 at /Users/baroukhovadia/.terraform.d/plugins/registry.terraform.io/hashicorp/random/terraform-provider-random_2.3.0_darwin_amd64.zip
+2020/10/28 08:30:54 [WARN] ignoring file "registry.terraform.io/hashicorp/tls/2.2.0.json" as possible package for registry.terraform.io/hashicorp/tls: filename lacks expected prefix "terraform-provider-tls_"
+2020/10/28 08:30:54 [WARN] ignoring file "registry.terraform.io/hashicorp/tls/index.json" as possible package for registry.terraform.io/hashicorp/tls: filename lacks expected prefix "terraform-provider-tls_"
+2020/10/28 08:30:54 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/tls v2.2.0 for darwin_amd64 at /Users/baroukhovadia/.terraform.d/plugins/registry.terraform.io/hashicorp/tls/terraform-provider-tls_2.2.0_darwin_amd64.zip
+2020/10/28 08:30:54 [TRACE] getproviders.SearchLocalDirectory: found terraform.getdyl.com/dyl/ansible v1.0.4 for darwin_amd64 at /Users/baroukhovadia/.terraform.d/plugins/terraform.getdyl.com/dyl/ansible/1.0.4/darwin_amd64
+2020/10/28 08:30:54 [TRACE] getproviders.SearchLocalDirectory: found terraform.getdyl.com/dyl/bandwidth v1.0.0 for darwin_amd64 at /Users/baroukhovadia/.terraform.d/plugins/terraform.getdyl.com/dyl/bandwidth/1.0.0/darwin_amd64
+2020/10/28 08:30:54 [TRACE] getproviders.SearchLocalDirectory: found terraform.getdyl.com/dyl/dummy v1.0.0 for darwin_amd64 at /Users/baroukhovadia/.terraform.d/plugins/terraform.getdyl.com/dyl/dummy/1.0.0/darwin_amd64
+2020/10/28 08:30:54 [TRACE] getproviders.SearchLocalDirectory: found terraform.getdyl.com/dyl/telnyx v1.0.0 for darwin_amd64 at /Users/baroukhovadia/.terraform.d/plugins/terraform.getdyl.com/dyl/telnyx/1.0.0/darwin_amd64
+2020/10/28 08:30:54 [DEBUG] ignoring non-existing provider search directory /Users/baroukhovadia/Library/Application Support/io.terraform/plugins
+2020/10/28 08:30:54 [DEBUG] ignoring non-existing provider search directory /Library/Application Support/io.terraform/plugins
+2020/10/28 08:30:54 [INFO] CLI command args: []string{"validate"}
+2020/10/28 08:30:54 [TRACE] providercache.fillMetaCache: scanning directory .terraform/plugins
+2020/10/28 08:30:54 [TRACE] getproviders.SearchLocalDirectory: .terraform/plugins is a symlink to .terraform/plugins
+2020/10/28 08:30:54 [TRACE] getproviders.SearchLocalDirectory: found terraform.getdyl.com/dyl/dummy v1.0.0 for darwin_amd64 at .terraform/plugins/terraform.getdyl.com/dyl/dummy/1.0.0/darwin_amd64
+2020/10/28 08:30:54 [TRACE] providercache.fillMetaCache: including .terraform/plugins/terraform.getdyl.com/dyl/dummy/1.0.0/darwin_amd64 as a candidate package for terraform.getdyl.com/dyl/dummy 1.0.0
+2020/10/28 08:30:54 [DEBUG] checking for provisioner in "."
+2020/10/28 08:30:54 [DEBUG] checking for provisioner in "/Users/baroukhovadia/tmp/test"
+2020/10/28 08:30:54 [DEBUG] checking for provisioner in "/Users/baroukhovadia/.terraform.d/plugins"
+2020/10/28 08:30:54 [INFO] Failed to read plugin lock file .terraform/plugins/darwin_amd64/lock.json: open .terraform/plugins/darwin_amd64/lock.json: no such file or directory
+2020/10/28 08:30:54 [TRACE] terraform.NewContext: starting
+2020/10/28 08:30:54 [TRACE] terraform.NewContext: loading provider schemas
+2020/10/28 08:30:54 [TRACE] LoadSchemas: retrieving schema for provider type "terraform.getdyl.com/dyl/dummy"
+2020-10-28T08:30:54.998-0700 [INFO]  plugin: configuring client automatic mTLS
+2020-10-28T08:30:55.031-0700 [DEBUG] plugin: starting plugin: path=.terraform/plugins/terraform.getdyl.com/dyl/dummy/1.0.0/darwin_amd64/terraform-provider-dummy_v1.0.0 args=[.terraform/plugins/terraform.getdyl.com/dyl/dummy/1.0.0/darwin_amd64/terraform-provider-dummy_v1.0.0]
+2020-10-28T08:30:55.034-0700 [DEBUG] plugin: plugin started: path=.terraform/plugins/terraform.getdyl.com/dyl/dummy/1.0.0/darwin_amd64/terraform-provider-dummy_v1.0.0 pid=72914
+2020-10-28T08:30:55.035-0700 [DEBUG] plugin: waiting for RPC address: path=.terraform/plugins/terraform.getdyl.com/dyl/dummy/1.0.0/darwin_amd64/terraform-provider-dummy_v1.0.0
+2020-10-28T08:30:55.055-0700 [INFO]  plugin.terraform-provider-dummy_v1.0.0: configuring server automatic mTLS: timestamp=2020-10-28T08:30:55.054-0700
+2020-10-28T08:30:55.080-0700 [DEBUG] plugin: using plugin: version=5
+2020-10-28T08:30:55.080-0700 [DEBUG] plugin.terraform-provider-dummy_v1.0.0: plugin address: address=/var/folders/hz/jl_rjbwx26d5sq47yn7506_40000gn/T/plugin080399441 network=unix timestamp=2020-10-28T08:30:55.080-0700
+2020/10/28 08:30:55 [TRACE] GRPCProvider: GetSchema
+2020-10-28T08:30:55.150-0700 [TRACE] plugin.stdio: waiting for stdio data
+2020/10/28 08:30:55 [TRACE] No provider meta schema returned
+2020/10/28 08:30:55 [TRACE] GRPCProvider: Close
+2020-10-28T08:30:55.159-0700 [WARN]  plugin.stdio: received EOF, stopping recv loop: err="rpc error: code = Unavailable desc = transport is closing"
+2020-10-28T08:30:55.161-0700 [DEBUG] plugin: plugin process exited: path=.terraform/plugins/terraform.getdyl.com/dyl/dummy/1.0.0/darwin_amd64/terraform-provider-dummy_v1.0.0 pid=72914
+2020-10-28T08:30:55.161-0700 [DEBUG] plugin: plugin exited
+2020/10/28 08:30:55 [TRACE] terraform.NewContext: complete
+2020/10/28 08:30:55 [INFO] terraform: building graph: GraphTypeValidate
+2020/10/28 08:30:55 [TRACE] Executing graph transform *terraform.ConfigTransformer
+2020/10/28 08:30:55 [TRACE] ConfigTransformer: Starting for path: 
+2020/10/28 08:30:55 [TRACE] Completed graph transform *terraform.ConfigTransformer with new graph:
+  dummy_dummy.dummy - *terraform.NodeValidatableResource
+  ------
+2020/10/28 08:30:55 [TRACE] Executing graph transform *terraform.LocalTransformer
+2020/10/28 08:30:55 [TRACE] Completed graph transform *terraform.LocalTransformer (no changes)
+2020/10/28 08:30:55 [TRACE] Executing graph transform *terraform.OutputTransformer
+2020/10/28 08:30:55 [TRACE] Completed graph transform *terraform.OutputTransformer (no changes)
+2020/10/28 08:30:55 [TRACE] Executing graph transform *terraform.OrphanResourceInstanceTransformer
+2020/10/28 08:30:55 [TRACE] Completed graph transform *terraform.OrphanResourceInstanceTransformer (no changes)
+2020/10/28 08:30:55 [TRACE] Executing graph transform *terraform.StateTransformer
+2020/10/28 08:30:55 [TRACE] StateTransformer: state is empty, so nothing to do
+2020/10/28 08:30:55 [TRACE] Completed graph transform *terraform.StateTransformer (no changes)
+2020/10/28 08:30:55 [TRACE] Executing graph transform *terraform.OrphanOutputTransformer
+2020/10/28 08:30:55 [TRACE] Completed graph transform *terraform.OrphanOutputTransformer (no changes)
+2020/10/28 08:30:55 [TRACE] Executing graph transform *terraform.AttachResourceConfigTransformer
+2020/10/28 08:30:55 [TRACE] AttachResourceConfigTransformer: attaching to "dummy_dummy.dummy" (*terraform.NodeValidatableResource) config from main.tf:4,1-31
+2020/10/28 08:30:55 [TRACE] AttachResourceConfigTransformer: attaching provider meta configs to dummy_dummy.dummy
+2020/10/28 08:30:55 [TRACE] Completed graph transform *terraform.AttachResourceConfigTransformer (no changes)
+2020/10/28 08:30:55 [TRACE] Executing graph transform *terraform.AttachStateTransformer
+2020/10/28 08:30:55 [TRACE] Completed graph transform *terraform.AttachStateTransformer (no changes)
+2020/10/28 08:30:55 [TRACE] Executing graph transform *terraform.RootVariableTransformer
+2020/10/28 08:30:55 [TRACE] Completed graph transform *terraform.RootVariableTransformer (no changes)
+2020/10/28 08:30:55 [TRACE] Executing graph transform *terraform.MissingProvisionerTransformer
+2020/10/28 08:30:55 [TRACE] Completed graph transform *terraform.MissingProvisionerTransformer (no changes)
+2020/10/28 08:30:55 [TRACE] Executing graph transform *terraform.ProvisionerTransformer
+2020/10/28 08:30:55 [TRACE] Completed graph transform *terraform.ProvisionerTransformer (no changes)
+2020/10/28 08:30:55 [TRACE] Executing graph transform *terraform.ModuleVariableTransformer
+2020/10/28 08:30:55 [TRACE] Completed graph transform *terraform.ModuleVariableTransformer (no changes)
+2020/10/28 08:30:55 [TRACE] Executing graph transform *terraform.graphTransformerMulti
+2020/10/28 08:30:55 [TRACE] (graphTransformerMulti) Executing graph transform *terraform.ProviderConfigTransformer
+2020/10/28 08:30:55 [TRACE] (graphTransformerMulti) Completed graph transform *terraform.ProviderConfigTransformer with new graph:
+  dummy_dummy.dummy - *terraform.NodeValidatableResource
+  ------
+2020/10/28 08:30:55 [TRACE] (graphTransformerMulti) Executing graph transform *terraform.MissingProviderTransformer
+2020/10/28 08:30:55 [DEBUG] adding implicit provider configuration provider["terraform.getdyl.com/dyl/dummy"], implied first by dummy_dummy.dummy
+2020/10/28 08:30:55 [TRACE] (graphTransformerMulti) Completed graph transform *terraform.MissingProviderTransformer with new graph:
+  dummy_dummy.dummy - *terraform.NodeValidatableResource
+  provider["terraform.getdyl.com/dyl/dummy"] - *terraform.NodeApplyableProvider
+  ------
+2020/10/28 08:30:55 [TRACE] (graphTransformerMulti) Executing graph transform *terraform.ProviderTransformer
+2020/10/28 08:30:55 [TRACE] ProviderTransformer: exact match for provider["terraform.getdyl.com/dyl/dummy"] serving dummy_dummy.dummy
+2020/10/28 08:30:55 [DEBUG] ProviderTransformer: "dummy_dummy.dummy" (*terraform.NodeValidatableResource) needs provider["terraform.getdyl.com/dyl/dummy"]
+2020/10/28 08:30:55 [TRACE] (graphTransformerMulti) Completed graph transform *terraform.ProviderTransformer with new graph:
+  dummy_dummy.dummy - *terraform.NodeValidatableResource
+    provider["terraform.getdyl.com/dyl/dummy"] - *terraform.NodeApplyableProvider
+  provider["terraform.getdyl.com/dyl/dummy"] - *terraform.NodeApplyableProvider
+  ------
+2020/10/28 08:30:55 [TRACE] (graphTransformerMulti) Executing graph transform *terraform.PruneProviderTransformer
+2020/10/28 08:30:55 [TRACE] (graphTransformerMulti) Completed graph transform *terraform.PruneProviderTransformer (no changes)
+2020/10/28 08:30:55 [TRACE] (graphTransformerMulti) Executing graph transform *terraform.ParentProviderTransformer
+2020/10/28 08:30:55 [TRACE] (graphTransformerMulti) Completed graph transform *terraform.ParentProviderTransformer (no changes)
+2020/10/28 08:30:55 [TRACE] Completed graph transform *terraform.graphTransformerMulti with new graph:
+  dummy_dummy.dummy - *terraform.NodeValidatableResource
+    provider["terraform.getdyl.com/dyl/dummy"] - *terraform.NodeApplyableProvider
+  provider["terraform.getdyl.com/dyl/dummy"] - *terraform.NodeApplyableProvider
+  ------
+2020/10/28 08:30:55 [TRACE] Executing graph transform *terraform.RemovedModuleTransformer
+2020/10/28 08:30:55 [TRACE] Completed graph transform *terraform.RemovedModuleTransformer (no changes)
+2020/10/28 08:30:55 [TRACE] Executing graph transform *terraform.AttachSchemaTransformer
+2020/10/28 08:30:55 [TRACE] AttachSchemaTransformer: attaching resource schema to dummy_dummy.dummy
+2020/10/28 08:30:55 [TRACE] AttachSchemaTransformer: attaching provider config schema to provider["terraform.getdyl.com/dyl/dummy"]
+2020/10/28 08:30:55 [TRACE] Completed graph transform *terraform.AttachSchemaTransformer (no changes)
+2020/10/28 08:30:55 [TRACE] Executing graph transform *terraform.ModuleExpansionTransformer
+2020/10/28 08:30:55 [TRACE] Completed graph transform *terraform.ModuleExpansionTransformer (no changes)
+2020/10/28 08:30:55 [TRACE] Executing graph transform *terraform.ReferenceTransformer
+2020/10/28 08:30:55 [DEBUG] ReferenceTransformer: "dummy_dummy.dummy" references: []
+2020/10/28 08:30:55 [DEBUG] ReferenceTransformer: "provider[\"terraform.getdyl.com/dyl/dummy\"]" references: []
+2020/10/28 08:30:55 [TRACE] Completed graph transform *terraform.ReferenceTransformer (no changes)
+2020/10/28 08:30:55 [TRACE] Executing graph transform *terraform.attachDataResourceDependenciesTransformer
+2020/10/28 08:30:55 [TRACE] Completed graph transform *terraform.attachDataResourceDependenciesTransformer (no changes)
+2020/10/28 08:30:55 [TRACE] Executing graph transform *terraform.TargetsTransformer
+2020/10/28 08:30:55 [TRACE] Completed graph transform *terraform.TargetsTransformer (no changes)
+2020/10/28 08:30:55 [TRACE] Executing graph transform *terraform.ForcedCBDTransformer
+2020/10/28 08:30:55 [TRACE] Completed graph transform *terraform.ForcedCBDTransformer (no changes)
+2020/10/28 08:30:55 [TRACE] Executing graph transform *terraform.CountBoundaryTransformer
+2020/10/28 08:30:55 [TRACE] Completed graph transform *terraform.CountBoundaryTransformer with new graph:
+  dummy_dummy.dummy - *terraform.NodeValidatableResource
+    provider["terraform.getdyl.com/dyl/dummy"] - *terraform.NodeApplyableProvider
+  meta.count-boundary (EachMode fixup) - *terraform.NodeCountBoundary
+    dummy_dummy.dummy - *terraform.NodeValidatableResource
+    provider["terraform.getdyl.com/dyl/dummy"] - *terraform.NodeApplyableProvider
+  provider["terraform.getdyl.com/dyl/dummy"] - *terraform.NodeApplyableProvider
+  ------
+2020/10/28 08:30:55 [TRACE] Executing graph transform *terraform.CloseProviderTransformer
+2020/10/28 08:30:55 [TRACE] Completed graph transform *terraform.CloseProviderTransformer with new graph:
+  dummy_dummy.dummy - *terraform.NodeValidatableResource
+    provider["terraform.getdyl.com/dyl/dummy"] - *terraform.NodeApplyableProvider
+  meta.count-boundary (EachMode fixup) - *terraform.NodeCountBoundary
+    dummy_dummy.dummy - *terraform.NodeValidatableResource
+    provider["terraform.getdyl.com/dyl/dummy"] - *terraform.NodeApplyableProvider
+  provider["terraform.getdyl.com/dyl/dummy"] - *terraform.NodeApplyableProvider
+  provider["terraform.getdyl.com/dyl/dummy"] (close) - *terraform.graphNodeCloseProvider
+    dummy_dummy.dummy - *terraform.NodeValidatableResource
+    provider["terraform.getdyl.com/dyl/dummy"] - *terraform.NodeApplyableProvider
+  ------
+2020/10/28 08:30:55 [TRACE] Executing graph transform *terraform.CloseProvisionerTransformer
+2020/10/28 08:30:55 [TRACE] Completed graph transform *terraform.CloseProvisionerTransformer (no changes)
+2020/10/28 08:30:55 [TRACE] Executing graph transform *terraform.CloseRootModuleTransformer
+2020/10/28 08:30:55 [TRACE] Completed graph transform *terraform.CloseRootModuleTransformer with new graph:
+  dummy_dummy.dummy - *terraform.NodeValidatableResource
+    provider["terraform.getdyl.com/dyl/dummy"] - *terraform.NodeApplyableProvider
+  meta.count-boundary (EachMode fixup) - *terraform.NodeCountBoundary
+    dummy_dummy.dummy - *terraform.NodeValidatableResource
+    provider["terraform.getdyl.com/dyl/dummy"] - *terraform.NodeApplyableProvider
+  provider["terraform.getdyl.com/dyl/dummy"] - *terraform.NodeApplyableProvider
+  provider["terraform.getdyl.com/dyl/dummy"] (close) - *terraform.graphNodeCloseProvider
+    dummy_dummy.dummy - *terraform.NodeValidatableResource
+    provider["terraform.getdyl.com/dyl/dummy"] - *terraform.NodeApplyableProvider
+  root - *terraform.nodeCloseModule
+    meta.count-boundary (EachMode fixup) - *terraform.NodeCountBoundary
+    provider["terraform.getdyl.com/dyl/dummy"] (close) - *terraform.graphNodeCloseProvider
+  ------
+2020/10/28 08:30:55 [TRACE] Executing graph transform *terraform.TransitiveReductionTransformer
+2020/10/28 08:30:55 [TRACE] Completed graph transform *terraform.TransitiveReductionTransformer with new graph:
+  dummy_dummy.dummy - *terraform.NodeValidatableResource
+    provider["terraform.getdyl.com/dyl/dummy"] - *terraform.NodeApplyableProvider
+  meta.count-boundary (EachMode fixup) - *terraform.NodeCountBoundary
+    dummy_dummy.dummy - *terraform.NodeValidatableResource
+  provider["terraform.getdyl.com/dyl/dummy"] - *terraform.NodeApplyableProvider
+  provider["terraform.getdyl.com/dyl/dummy"] (close) - *terraform.graphNodeCloseProvider
+    dummy_dummy.dummy - *terraform.NodeValidatableResource
+  root - *terraform.nodeCloseModule
+    meta.count-boundary (EachMode fixup) - *terraform.NodeCountBoundary
+    provider["terraform.getdyl.com/dyl/dummy"] (close) - *terraform.graphNodeCloseProvider
+  ------
+2020/10/28 08:30:55 [DEBUG] Starting graph walk: walkValidate
+2020/10/28 08:30:55 [TRACE] dag/walk: visiting "provider[\"terraform.getdyl.com/dyl/dummy\"]"
+2020/10/28 08:30:55 [TRACE] vertex "provider[\"terraform.getdyl.com/dyl/dummy\"]": starting visit (*terraform.NodeApplyableProvider)
+2020/10/28 08:30:55 [TRACE] vertex "provider[\"terraform.getdyl.com/dyl/dummy\"]": evaluating
+2020/10/28 08:30:55 [TRACE] [walkValidate] Entering eval tree: provider["terraform.getdyl.com/dyl/dummy"]
+2020/10/28 08:30:55 [TRACE] eval: *terraform.EvalSequence
+2020/10/28 08:30:55 [TRACE] eval: *terraform.EvalInitProvider
+2020-10-28T08:30:55.169-0700 [INFO]  plugin: configuring client automatic mTLS
+2020-10-28T08:30:55.192-0700 [DEBUG] plugin: starting plugin: path=.terraform/plugins/terraform.getdyl.com/dyl/dummy/1.0.0/darwin_amd64/terraform-provider-dummy_v1.0.0 args=[.terraform/plugins/terraform.getdyl.com/dyl/dummy/1.0.0/darwin_amd64/terraform-provider-dummy_v1.0.0]
+2020-10-28T08:30:55.196-0700 [DEBUG] plugin: plugin started: path=.terraform/plugins/terraform.getdyl.com/dyl/dummy/1.0.0/darwin_amd64/terraform-provider-dummy_v1.0.0 pid=72915
+2020-10-28T08:30:55.197-0700 [DEBUG] plugin: waiting for RPC address: path=.terraform/plugins/terraform.getdyl.com/dyl/dummy/1.0.0/darwin_amd64/terraform-provider-dummy_v1.0.0
+2020-10-28T08:30:55.216-0700 [INFO]  plugin.terraform-provider-dummy_v1.0.0: configuring server automatic mTLS: timestamp=2020-10-28T08:30:55.216-0700
+2020-10-28T08:30:55.240-0700 [DEBUG] plugin.terraform-provider-dummy_v1.0.0: plugin address: address=/var/folders/hz/jl_rjbwx26d5sq47yn7506_40000gn/T/plugin029623862 network=unix timestamp=2020-10-28T08:30:55.240-0700
+2020-10-28T08:30:55.240-0700 [DEBUG] plugin: using plugin: version=5
+2020/10/28 08:30:55 [TRACE] BuiltinEvalContext: Initialized "provider[\"terraform.getdyl.com/dyl/dummy\"]" provider for provider["terraform.getdyl.com/dyl/dummy"]
+2020-10-28T08:30:55.290-0700 [TRACE] plugin.stdio: waiting for stdio data
+2020/10/28 08:30:55 [TRACE] eval: *terraform.EvalOpFilter
+2020/10/28 08:30:55 [TRACE] eval: *terraform.EvalSequence
+2020/10/28 08:30:55 [TRACE] eval: *terraform.EvalGetProvider
+2020/10/28 08:30:55 [TRACE] eval: *terraform.EvalValidateProvider
+2020/10/28 08:30:55 [TRACE] buildProviderConfig for provider["terraform.getdyl.com/dyl/dummy"]: no configuration at all
+2020/10/28 08:30:55 [TRACE] GRPCProvider: GetSchema
+2020/10/28 08:30:55 [TRACE] No provider meta schema returned
+2020/10/28 08:30:55 [TRACE] GRPCProvider: PrepareProviderConfig
+2020/10/28 08:30:55 [TRACE] eval: terraform.EvalNoop
+2020/10/28 08:30:55 [TRACE] eval: terraform.EvalNoop
+2020/10/28 08:30:55 [TRACE] eval: terraform.EvalNoop
+2020/10/28 08:30:55 [TRACE] [walkValidate] Exiting eval tree: provider["terraform.getdyl.com/dyl/dummy"]
+2020/10/28 08:30:55 [TRACE] vertex "provider[\"terraform.getdyl.com/dyl/dummy\"]": visit complete
+2020/10/28 08:30:55 [TRACE] dag/walk: visiting "dummy_dummy.dummy"
+2020/10/28 08:30:55 [TRACE] vertex "dummy_dummy.dummy": starting visit (*terraform.NodeValidatableResource)
+2020/10/28 08:30:55 [TRACE] vertex "dummy_dummy.dummy": evaluating
+2020/10/28 08:30:55 [TRACE] [walkValidate] Entering eval tree: dummy_dummy.dummy
+2020/10/28 08:30:55 [TRACE] eval: *terraform.EvalSequence
+2020/10/28 08:30:55 [TRACE] eval: *terraform.EvalGetProvider
+2020/10/28 08:30:55 [TRACE] eval: *terraform.EvalValidateResource
+2020/10/28 08:30:55 [ERROR] eval: *terraform.EvalValidateResource, err: Incorrect attribute value type: Inappropriate value for attribute "test": element "testlist": string required.
+2020/10/28 08:30:55 [ERROR] eval: *terraform.EvalSequence, err: Incorrect attribute value type: Inappropriate value for attribute "test": element "testlist": string required.
+2020/10/28 08:30:55 [TRACE] [walkValidate] Exiting eval tree: dummy_dummy.dummy
+2020/10/28 08:30:55 [TRACE] vertex "dummy_dummy.dummy": visit complete
+2020/10/28 08:30:55 [TRACE] dag/walk: upstream of "meta.count-boundary (EachMode fixup)" errored, so skipping
+2020/10/28 08:30:55 [TRACE] dag/walk: upstream of "provider[\"terraform.getdyl.com/dyl/dummy\"] (close)" errored, so skipping
+2020/10/28 08:30:55 [TRACE] dag/walk: upstream of "root" errored, so skipping
+[31m
+[1m[31mError: [0m[0m[1mIncorrect attribute value type[0m
+
+[0m  on main.tf line 5, in resource "dummy_dummy" "dummy":
+   5: 	test = [4m{[0m
+[0m   6: [4m		testlist = ["test", "tester"][0m
+[0m   7: [4m	}[0m
+[0m
+Inappropriate value for attribute "test": element "testlist": string required.
+[0m[0m
+2020-10-28T08:30:55.299-0700 [WARN]  plugin.stdio: received EOF, stopping recv loop: err="rpc error: code = Unavailable desc = transport is closing"
+2020-10-28T08:30:55.301-0700 [DEBUG] plugin: plugin process exited: path=.terraform/plugins/terraform.getdyl.com/dyl/dummy/1.0.0/darwin_amd64/terraform-provider-dummy_v1.0.0 pid=72915
+2020-10-28T08:30:55.301-0700 [DEBUG] plugin: plugin exited
